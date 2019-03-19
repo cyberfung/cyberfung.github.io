@@ -1,0 +1,61 @@
+html, body {padding:0; margin:0;}
+
+.mainPanel {
+	background: rgba(35, 35, 39, 1);
+	position: fixed;
+	width: 100%;
+	height: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+}
+
+.mainPanel p {
+	margin: 0;
+	font-size: 75px;
+	color: rgba(230, 230, 230, 1)
+}
+
+.mainPanelText {
+
+}
+
+.shifhtFromPanel {
+	width: 100%;
+	height: 20%;
+}
+
+.projectRect {
+	border-radius: 40px;
+	width: 80%;
+	height: 250px;
+	background: linear-gradient(#fbd7b9, #ffffff);
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
+
+.projectRect img {
+	height: 250px;
+	float: left;
+	
+}
+
+.projectRect p {
+	text-align: center;
+	margin-bottom: 1%;
+	
+	
+	font-size: 43px;
+	color: rgba(50, 50, 50, 1)
+}
+
+.projectRect span {
+	padding-left: 5%;
+	
+	text-overflow: ellipsis;
+	font-size: 28px;
+	
+	color: rgba(50, 50, 50, 1)
+}
