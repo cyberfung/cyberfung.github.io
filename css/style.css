@@ -53,6 +53,7 @@ html, body {padding:0; margin:0;}
 
 .projectRect span {
 	padding-left: 5%;
+	padding-right: 1%;
 	
 	text-overflow: ellipsis;
 	font-size: 28px;
